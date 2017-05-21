@@ -1,0 +1,101 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://Elements/Coffee/Coffee.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Elements/Contract/Contract.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Elements/Bugs/Bugs.tscn" type="PackedScene" id=3]
+
+[node name="Level1" type="Spatial"]
+
+_import_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+
+[node name="TopElements" type="Spatial" parent="."]
+
+editor/display_folded = true
+_import_transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+transform/local = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -200 )
+
+[node name="Coffee" parent="TopElements" instance=ExtResource( 1 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, -100 )
+
+[node name="Coffee1" parent="TopElements" instance=ExtResource( 1 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, -100, 0, -300 )
+
+[node name="Contract1" parent="TopElements" instance=ExtResource( 2 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 100, 0, -200 )
+
+[node name="Contract" parent="TopElements" instance=ExtResource( 2 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, -250 )
+
+[node name="Contract2" parent="TopElements" instance=ExtResource( 2 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, -100, 0, -250 )
+
+[node name="Contract4" parent="TopElements" instance=ExtResource( 2 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 50, 0, -350 )
+
+[node name="Contract3" parent="TopElements" instance=ExtResource( 2 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 100, 0, -400 )
+
+[node name="Contract5" parent="TopElements" instance=ExtResource( 2 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, -100, 0, -400 )
+
+[node name="Contract6" parent="TopElements" instance=ExtResource( 2 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, -100, 0, -500 )
+
+[node name="Contract7" parent="TopElements" instance=ExtResource( 2 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 150, 0, -600 )
+
+[node name="Bugs" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, -50, 0, -400 )
+
+[node name="Bugs1" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, -25, 0, -450 )
+
+[node name="Bugs2" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, -500 )
+
+[node name="Bugs3" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 25, 0, -550 )
+
+[node name="Bugs4" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 50, 0, -600 )
+
+[node name="Bugs5" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 75, 0, -650 )
+
+[node name="Bugs6" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 100, 0, -700 )
+
+[node name="Bugs7" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 150, 0, -700 )
+
+[node name="Bugs8" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 200, 0, -700 )
+
+[node name="Bugs9" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 250, 0, -700 )
+
+[node name="Bugs10" parent="TopElements" instance=ExtResource( 3 )]
+
+transform/local = Transform( 50, 0, 0, 0, 50, 0, 0, 0, 50, 300, 0, -700 )
+
+
